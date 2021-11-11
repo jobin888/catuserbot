@@ -42,7 +42,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="bombs$",
-    command=("bombs", plugin_category),
+    command=("💣bombs", plugin_category),
     info={
         "header": "bomb animation",
         "usage": "{tr}bombs",
@@ -75,7 +75,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="call$",
-    command=("call", plugin_category),
+    command=("☎️call", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}call",
@@ -113,7 +113,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="kill$",
-    command=("kill", plugin_category),
+    command=("🧑‍🦰🔫kill", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}kill",
@@ -145,7 +145,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="kell$",
-    command=("kell", plugin_category),
+    command=("🧑‍🦰🔫kell", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}kell",
@@ -177,7 +177,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="wtf$",
-    command=("wtf", plugin_category),
+    command=("wtf ❓", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}wtf",
@@ -193,7 +193,7 @@ async def _(event):
         "What The",
         "What The F",
         "What The F Brah",
-        "What The F Brah[ㅤㅤㅤㅤㅤㅤ\u2063](https://telegra.ph/file/f3b760e4a99340d331f9b.jpg)",
+        "What The F Brah[ㅤㅤㅤㅤㅤㅤ\u2063](https://te.legra.ph/file/096d5ba8e5b01e8458d6a.jpg)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -202,7 +202,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="ding$",
-    command=("ding", plugin_category),
+    command=("🎮ding", plugin_category),
     info={
         "header": "throwing brain in dustbin animation.",
         "usage": "{tr}ding",
@@ -214,12 +214,12 @@ async def _(event):
     animation_ttl = range(24)
     animation_chars = [
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
-        "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
-        "⬜⬜⬛⬜⬜\n⬜⬜⬜⬛⬜\n⬜⬜⬜⬜🔴",
-        "⬜⬜⬛⬛🔴\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬛⬜⬜\n⬜⬜⬜⬛⬜\n⬜⬜⬜⬜🔴",
-        "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
+        "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🟡⬜⬜⬜⬜",
+        "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🟢⬜⬜",
+        "⬜⬜⬛⬜⬜\n⬜⬜⬜⬛⬜\n⬜⬜⬜⬜🔵",
+        "⬜⬜⬛⬛🟠\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
+        "⬜⬜⬛⬜⬜\n⬜⬜⬜⬛⬜\n⬜⬜⬜⬜🟣",
+        "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🟤⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
     ]
     event = await edit_or_reply(event, "ding..dong..ding..dong ...")
@@ -257,7 +257,7 @@ async def _(event):
         "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
         "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
         "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-        "[👉🔴👈])",
+        "[👉🪙👈])",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -266,7 +266,7 @@ async def _(event):
 
 @catub.cat_cmd(
     pattern="candy$",
-    command=("candy", plugin_category),
+    command=("🍭candy", plugin_category),
     info={
         "header": "Fun animation try yourself to see",
         "usage": "{tr}candy",
@@ -275,7 +275,7 @@ async def _(event):
 async def _(event):
     "animation command"
     event = await edit_or_reply(event, "candy")
-    deq = deque(list("🍦🍧🍩🍪🎂🍰🧁🍫🍬🍭"))
+    deq = deque(list("🧆🌮🍩🍪🥪🍰🧁🥮🧆🥞"))
     for _ in range(100):
         await asyncio.sleep(0.4)
         await event.edit("".join(deq))
@@ -293,26 +293,26 @@ async def _(event):
 async def _(event):
     "animation command"
     event = await edit_or_reply(event, "gangasta")
-    await event.edit("EVERyBOdy")
+    await event.edit("Everybody")
     await asyncio.sleep(0.3)
-    await event.edit("iZ")
+    await event.edit("iz")
     await asyncio.sleep(0.2)
-    await event.edit("GangSTur")
+    await event.edit("Gangster")
     await asyncio.sleep(0.5)
-    await event.edit("UNtIL ")
+    await event.edit("Until ")
     await asyncio.sleep(0.2)
     await event.edit("I")
     await asyncio.sleep(0.3)
-    await event.edit("ArRivE")
+    await event.edit("Arrive")
     await asyncio.sleep(0.3)
     await event.edit("🔥🔥🔥")
     await asyncio.sleep(0.3)
-    await event.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥🔥🔥")
+    await event.edit("Everybody iz Gangster Until I Arrive 🔥🔥🔥")
 
 
 @catub.cat_cmd(
     pattern="charging$",
-    command=("charging", plugin_category),
+    command=("🔋charging", plugin_category),
     info={
         "header": "Phone charging animation.",
         "usage": "{tr}charging",
@@ -331,6 +331,6 @@ async def _(event):
     await event.edit(
         "`Tesla Wireless Charging (beta) Completed...\
         \nDevice Detected: Nokia 1100 (Space Grey Varient)\
-        \nnBattery Percentage:` [100%](https://telegra.ph/file/a45aa7450c8eefed599d9.mp4) ",
+        \nnBattery Percentage:` [100%](https://te.legra.ph/file/27b6f5621dd448617550c.jpg) ",
         link_preview=True,
     )
