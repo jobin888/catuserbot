@@ -41,8 +41,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="bombs$",
-    command=("💣bombs", plugin_category),
+    pattern="💣bombs$",
+    command=("bombs", plugin_category),
     info={
         "header": "bomb animation",
         "usage": "{tr}bombs",
@@ -74,8 +74,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="call$",
-    command=("☎️call", plugin_category),
+    pattern="☎️call$",
+    command=("call", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}call",
@@ -112,8 +112,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="kill$",
-    command=("🧑‍🦱🔫kill", plugin_category),
+    pattern="🧑‍🦱🔫kill$",
+    command=("kill", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}kill",
@@ -144,8 +144,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="kell$",
-    command=("🧑‍🦱🔫kell", plugin_category),
+    pattern="🧑‍🦱🔫kell$",
+    command=("kell", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}kell",
@@ -176,8 +176,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="wtf$",
-    command=("wtf ❓", plugin_category),
+    pattern="wtf❓$",
+    command=("wtf", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}wtf",
@@ -201,8 +201,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="ding$",
-    command=("🎮ding", plugin_category),
+    pattern="🎮ding$",
+    command=("ding", plugin_category),
     info={
         "header": "throwing brain in dustbin animation.",
         "usage": "{tr}ding",
@@ -265,8 +265,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="candy$",
-    command=("🍬candy", plugin_category),
+    pattern="🍬candy$",
+    command=("candy", plugin_category),
     info={
         "header": "Fun animation try yourself to see",
         "usage": "{tr}candy",
@@ -311,8 +311,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="charging$",
-    command=("🔋charging", plugin_category),
+    pattern="🔋charging$",
+    command=("charging", plugin_category),
     info={
         "header": "Phone charging animation.",
         "usage": "{tr}charging",
