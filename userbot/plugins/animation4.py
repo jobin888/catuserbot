@@ -37,7 +37,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="acarry$",
+    pattern="🧑‍🦱acarry$",
     command=("acarry", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -188,7 +188,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="thinking$",
+    pattern="🤔thinking$",
     command=("thinking", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -244,7 +244,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="snake$",
+    pattern="🐍snake$",
     command=("snake", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -291,7 +291,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="human$",
+    pattern="🧍‍♂human$",
     command=("human", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -327,7 +327,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="virus$",
+    pattern="🦠virus$",
     command=("virus", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -377,7 +377,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="music$",
+    pattern="🎵music$",
     command=("music", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -408,7 +408,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="squ$",
+    pattern="🟥squ$",
     command=("squ", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
