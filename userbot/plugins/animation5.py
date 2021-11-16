@@ -82,7 +82,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="hart$",
+    pattern="❤️hart$",
     command=("hart", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -118,12 +118,12 @@ async def _(event):
         "😧",
         "😡",
         "😢",
-        "‎**Repo of catuserbot**",
+        "‎😒",
         "😁",
         "😧",
         "😡",
         "😢",
-        "__**[Good to see you guys....]**__(github.com/sandy1709/catuserbot)",
+        "__**[Good to see you guys....]**__(@chinnu_userbot)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -162,7 +162,7 @@ async def _(event):
     animation_interval = 2
     animation_ttl = range(12)
     event = await edit_or_reply(event, "Hey There....")
-    animation_chars = ["🐵", "🙉", "🙈", "🙊", "🖕‎🐵🖕", "**Good to see you friend....**"]
+    animation_chars = ["🐵", "🙉", "🙈", "🙊", "🖕‎🐵🖕", "**Poda Myree....**"]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 6])
@@ -216,7 +216,6 @@ async def _(event):
         "👉",
         "☝️",
         "👆",
-        "🖕",
         "👇",
         "✌️",
         "🤞",
@@ -264,7 +263,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="theart$",
+    pattern="🖤theart$",
     command=("theart", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
