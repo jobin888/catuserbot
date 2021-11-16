@@ -7,8 +7,8 @@ plugin_category = "fun"
 
 
 @catub.cat_cmd(
-    pattern="think$",
-    command=("🤔 think", plugin_category),
+    pattern="🤔think$",
+    command=("think", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}think",
@@ -25,8 +25,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="lmao$",
-    command=("😁 lmao", plugin_category),
+    pattern="😁lmao$",
+    command=("lmao", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}lmao",
@@ -43,7 +43,7 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="nothappy$",
+    pattern="🙃nothappy$",
     command=("nothappy", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
@@ -61,8 +61,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="clock$",
-    command=("⏰clock", plugin_category),
+    pattern="⏰clock$",
+    command=("clock", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}clock",
@@ -79,8 +79,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="muah$",
-    command=("💋 muah", plugin_category),
+    pattern="💋muah$",
+    command=("muah", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}muah",
@@ -97,8 +97,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="heart$",
-    command=("❤️heart", plugin_category),
+    pattern="❤️heart$",
+    command=("heart", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}heart",
@@ -115,8 +115,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="gym$",
-    command=("🏋️ gym", plugin_category),
+    pattern="🏋️gym$",
+    command=("gym", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}gym",
@@ -133,8 +133,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="earth$",
-    command=("🌍 earth", plugin_category),
+    pattern="🌍earth$",
+    command=("earth", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}earth",
@@ -151,8 +151,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="moon$",
-    command=("🌕 moon", plugin_category),
+    pattern="🌕moon$",
+    command=("moon", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}moon",
@@ -169,8 +169,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="smoon$",
-    command=("🌘 smoon", plugin_category),
+    pattern="🌘smoon$",
+    command=("smoon", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}smoon",
@@ -198,8 +198,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="tmoon$",
-    command=("🌘 tmoon", plugin_category),
+    pattern="🌘tmoon$",
+    command=("tmoon", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}tmoon",
