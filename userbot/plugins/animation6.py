@@ -19,15 +19,15 @@ async def _(event):
     animation_ttl = range(9)
     event = await edit_or_reply(event, "unnoob")
     animation_chars = [
-        "EvErYbOdY",
-        "iZ",
-        "BiGGeSt",
-        "NoOoB",
-        "uNtiL",
-        "YoU",
-        "aRriVe",
+        "Everybody",
+        "iz",
+        "Biggest",
+        "Nooob",
+        "until",
+        "You",
+        "arrive",
         "😈",
-        "EvErYbOdY iZ BiGGeSt NoOoB uNtiL YoU aRriVe 😈",
+        "Everybody iz Biggest Nooob until You arrive 😈",
     ]
     for i in animation_ttl:
         await event.edit(animation_chars[i % 9])
@@ -48,15 +48,15 @@ async def _(event):
     animation_ttl = range(9)
     event = await edit_or_reply(event, "menoob")
     animation_chars = [
-        "EvErYbOdY",
-        "iZ",
-        "BiGGeSt",
-        "NoOoB",
-        "uNtiL",
+        "Everybody",
+        "iz",
+        "Biggest",
+        "Nooob",
+        "until",
         "i",
-        "aRriVe",
+        "arrive",
         "😈",
-        "EvErYbOdY iZ BiGGeSt NoOoB uNtiL i aRriVe 😈",
+        "Everybody iz Biggest Nooob until i arrive 😈",
     ]
     for i in animation_ttl:
         await event.edit(animation_chars[i % 9])
@@ -77,14 +77,14 @@ async def _(event):
     animation_ttl = range(8)
     event = await edit_or_reply(event, "upro")
     animation_chars = [
-        "EvErYbOdY",
-        "iZ",
-        "PeRu",
-        "uNtiL",
-        "YoU",
-        "aRriVe",
+        "Everybody",
+        "iz",
+        "Peru",
+        "until",
+        "You",
+        "arrive",
         "😈",
-        "EvErYbOdY iZ PeRu uNtiL YoU aRriVe 😈",
+        "Everybody iz Peru until You arrive 😈",
     ]
     for i in animation_ttl:
         await event.edit(animation_chars[i % 8])
@@ -105,14 +105,14 @@ async def _(event):
     animation_ttl = range(8)
     event = await edit_or_reply(event, "mepro")
     animation_chars = [
-        "EvErYbOdY",
-        "iZ",
-        "PeRu",
-        "uNtiL",
-        "i",
-        "aRriVe",
+        "Everybody",
+        "iz",
+        "Peru",
+        "until",
+        "I",
+        "arrive",
         "😈",
-        "EvErYbOdY iZ PeRu uNtiL i aRriVe 😈",
+        "Everybody iz Peru until I Arrive 😈",
     ]
     for i in animation_ttl:
         await event.edit(animation_chars[i % 8])
@@ -135,15 +135,15 @@ async def _(event):
     animation_chars = [
         "`Downloading File..`",
         "`File Downloaded....`",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 84%\n█████████████████████▒▒▒▒ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nFile Scanned... 100%\n█████████████████████████ `",
-        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2099\n\nTask: 01 of 01 Files Scanned...\n\nResult: No Virus Found...`",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 84%\n█████████████████████▒▒▒▒ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nFile Scanned... 100%\n█████████████████████████ `",
+        "`Quick Heal Total Security Checkup\n\n\nSubscription: Pru User\nValid Until: 31/12/2021\n\nTask: 01 of 01 Files Scanned...\n\nResult: No Virus Found...`",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
